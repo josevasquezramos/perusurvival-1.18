@@ -132,6 +132,8 @@ world-settings:
     view-distance: default
     nerf-spawner-mobs: false
     simulation-distance: default
+  worldeditregentempworld:
+    verbose: false
 messages:
   restart: Server is restarting
   whitelist: You are not whitelisted on this server!
