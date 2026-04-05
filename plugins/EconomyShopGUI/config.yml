@@ -666,6 +666,7 @@ display-lore-layout:
     # The following lore is only displayed on shop items if players have the 'EconomyShopGUI.itemindexes' permission
     item-index: '%translations-item-location-in-shop%'
 
+
 # Enable/disable the lore on items given to players when an item is bought from shop
 bought-items-lore: true
 
