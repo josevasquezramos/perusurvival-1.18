@@ -660,7 +660,7 @@ display-lore-layout:
     - '&6Shift + Click derecho para vender todo'
     # The following decoration lore is displayed on any shop item with a sell price
     extra-sell-lore:
-    - ''
+    - ''  
   # More detailed item lore which is only shown for specific permissions
   admin-lore:
     # The following lore is only displayed on shop items if players have the 'EconomyShopGUI.itemindexes' permission
