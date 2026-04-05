@@ -1,0 +1,48 @@
+menu_title: "Warps del Servidor"
+open_command:
+  - warp
+  - warps
+size: 27
+items:
+  'warp_lobby':
+    display_name: "&e&lLOBBY"
+    material: NETHER_STAR
+    slot: 10
+    lore:
+      - " "
+      - "&fRegresa al spawn principal"
+      - "&fy encuéntrate con otros jugadores."
+    left_click_commands:
+      - "[player] warp lobby"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp lobby"
+      - "[close]"
+  'warp_pvp':
+    display_name: "&c&lPVP"
+    material: IRON_SWORD
+    slot: 12
+    lore:
+      - " "
+      - "&fEntra a la arena para probar tus"
+      - "&fhabilidades contra otros guerreros."
+    left_click_commands:
+      - "[player] warp pvp"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp pvp"
+      - "[close]"
+  'warp_casino':
+    display_name: "&b&lCASINO"
+    material: EMERALD
+    slot: 14
+    lore:
+      - " "
+      - "&fDiviértete y prueba tu suerte"
+      - "&fen nuestro exclusivo casino."
+    left_click_commands:
+      - "[player] warp casino"
+      - "[close]"
+    right_click_commands:
+      - "[player] warp casino"
+      - "[close]"

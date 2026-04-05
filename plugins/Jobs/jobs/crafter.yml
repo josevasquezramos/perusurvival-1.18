@@ -1,0 +1,113 @@
+Crafter:
+    fullname: Artesano
+    shortname: Cr
+    FullDescription:
+      - "&7Gana dinero fabricando herramientas,"
+      - "&7mecanismos y decoraciones."
+    ChatColour: RED
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "Maestro Constructor"
+        Objectives:
+          - Craft;dispenser;5
+          - Craft;hopper;5
+          - Craft;chest;20
+        RewardCommands:
+          - eco give [playerName] 200
+          - msg [playerName] &c¡Inventario abastecido! Gran trabajo artesanal.
+        RewardDesc:
+          - "&7Fabrica suministros para obtener &a$200&7."
+    Gui:
+      ItemStack: crafting_table
+    Craft:
+      stick:
+        income: 0.01
+        experience: 0.05
+      ladder:
+        income: 0.05
+        experience: 0.1
+      crafting_table:
+        income: 0.1
+        experience: 0.5
+      chest:
+        income: 0.2
+        experience: 0.5
+      furnace:
+        income: 0.2
+        experience: 0.5
+      oak_door:
+        income: 0.2
+        experience: 0.5
+      white_stained_glass:
+        income: 0.1
+        experience: 0.2
+      oak_stairs:
+        income: 0.2
+        experience: 0.5
+      cobblestone_stairs:
+        income: 0.1
+        experience: 0.3
+      iron_door:
+        income: 1.5
+        experience: 3.0
+      enchanting_table:
+        income: 15.0
+        experience: 50.0
+      anvil:
+        income: 10.0
+        experience: 30.0
+      beacon:
+        income: 150.0
+        experience: 1000.0
+      jukebox:
+        income: 12.0
+        experience: 40.0
+      dispenser:
+        income: 2.0
+        experience: 5.0
+      dropper:
+        income: 1.0
+        experience: 2.5
+      hopper:
+        income: 3.5
+        experience: 8.0
+      sticky_piston:
+        income: 2.5
+        experience: 6.0
+      tnt:
+        income: 3.0
+        experience: 7.0
+      daylight_detector:
+        income: 4.0
+        experience: 10.0
+      sea_lantern:
+        income: 5.0
+        experience: 15.0
+      cake:
+        income: 5.0
+        experience: 15.0
+      brewing_stand:
+        income: 3.0
+        experience: 8.0
+      compass:
+        income: 2.0
+        experience: 5.0
+      clock:
+        income: 5.0
+        experience: 10.0
+    Smelt:
+      cooked_chicken:
+        income: 0.1
+        experience: 0.5
+    Kill:
+      Player:
+        income: 15.0
+        experience: 25.0

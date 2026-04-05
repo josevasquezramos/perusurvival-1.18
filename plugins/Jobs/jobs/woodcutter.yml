@@ -1,0 +1,65 @@
+Woodcutter:
+    fullname: Leñador
+    shortname: L
+    FullDescription:
+      - "&7Gana dinero talando árboles y"
+      - "&7reforestando el mundo."
+    ChatColour: GREEN
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "El Gran Talador"
+        Objectives:
+          - Break;oak_log;128
+          - Break;birch_log;64
+        RewardCommands:
+          - eco give [playerName] 250
+          - msg [playerName] &a¡Misión completada! Has reforestado el servidor.
+        RewardDesc:
+          - "&7Tala troncos para obtener un bono de &a$250&7."
+    Gui:
+      ItemStack: oak_log
+    
+    Break:
+      materials:
+
+        - oak_log;0.15;0.15;0.2
+        - birch_log;0.15;0.15;0.2
+        - spruce_log;0.18;0.18;0.25
+        - jungle_log;0.20;0.20;0.3
+        - acacia_log;0.22;0.22;0.3
+        - dark_oak_log;0.25;0.25;0.35
+        - stripped_oak_log;0.05;0.05;0.05
+        - stripped_spruce_log;0.05;0.05;0.05
+        - stripped_birch_log;0.05;0.05;0.05
+        - stripped_jungle_log;0.05;0.05;0.05
+        - stripped_acacia_log;0.05;0.05;0.05
+        - stripped_dark_oak_log;0.05;0.05;0.05
+    
+    Place:
+      materials:
+        - oak_sapling;0.05;0.05;0.1
+        - spruce_sapling;0.05;0.05;0.1
+        - birch_sapling;0.05;0.05;0.1
+        - jungle_sapling;0.05;0.05;0.1
+        - acacia_sapling;0.05;0.05;0.1
+        - dark_oak_sapling;0.05;0.05;0.1
+    Kill:
+      Player:
+        income: 7.5
+        points: 7.5
+        experience: 7.5
+      custom-kill:
+      Woodcutter:
+        income: 10.0
+        points: 10.0
+        experience: 10.0

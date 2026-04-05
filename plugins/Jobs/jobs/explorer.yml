@@ -1,0 +1,76 @@
+Explorer:
+    fullname: Explorador
+    shortname: Ex
+    FullDescription:
+      - "&7Gana dinero descubriendo nuevos"
+      - "&7horizontes y tesoros enterrados."
+    ChatColour: AQUA
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "Galileo Galilei"
+        Objectives:
+          - Explore;1;500
+        RewardCommands:
+          - eco give [playerName] 200
+          - msg [playerName] &b¡Has recorrido un largo camino! El mapa se expande.
+        RewardDesc:
+          - "&7Explora 500 chunks nuevos para obtener &a$200&7."
+    Gui:
+      ItemStack: compass
+
+    Explore:
+
+      '1':
+        income: 2.0
+        points: 2.0
+        experience: 5.0
+      '2':
+        income: 1.0
+        points: 1.0
+        experience: 2.5
+      '3':
+        income: 0.5
+        points: 0.5
+        experience: 1.0
+      '4':
+        income: 0.1
+        points: 0.1
+        experience: 0.2
+      '5':
+        income: 0.02
+        points: 0.02
+        experience: 0.05
+
+    Brush:
+      suspicious_sand:
+        income: 15.0
+        points: 15.0
+        experience: 30.0
+      suspicious_gravel:
+        income: 15.0
+        points: 15.0
+        experience: 30.0
+
+    Kill:
+      Evoker:
+        income: 50.0
+        experience: 100.0
+      Vindicator:
+        income: 10.0
+        experience: 20.0
+      Pillager:
+        income: 5.0
+        experience: 10.0
+      Player:
+        income: 15.0
+        experience: 20.0

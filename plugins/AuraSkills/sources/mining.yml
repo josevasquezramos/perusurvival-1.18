@@ -1,0 +1,57 @@
+default:
+  type: block
+  trigger: break
+  check_replace: true
+  menu_item:
+    material: '{block}'
+sources:
+  stone: { xp: 0.1 }       
+    cobblestone: { xp: 0.1 }
+    andesite: { xp: 0.1 }
+    diorite: { xp: 0.1 }
+    granite: { xp: 0.1 }
+    sandstone: { xp: 0.1 }
+    deepslate: { xp: 0.2 }    
+    tuff: { xp: 0.2 }
+    netherrack: { xp: 0.05 }  
+
+    coal_ore: { xp: 1.0 }
+    iron_ore: { xp: 1.5 }
+    copper_ore: { xp: 1.0 }  
+    nether_quartz_ore: { xp: 1.2 } 
+
+    lapis_ore: 
+      xp: 8.0      
+    redstone_ore: 
+      xp: 4.0      
+    gold_ore: 
+      xp: 12.0      
+    diamond_ore: 
+      xp: 35.0       
+    emerald_ore: 
+      xp: 50.0    
+
+    deepslate_coal_ore: { xp: 1.2 }
+    deepslate_iron_ore: { xp: 2.0 }
+    deepslate_gold_ore: { xp: 15.0 }
+    deepslate_redstone_ore: { xp: 5.0 }
+    deepslate_lapis_ore: { xp: 10.0 }
+    deepslate_diamond_ore: { xp: 45.0 }
+    deepslate_emerald_ore: { xp: 65.0 }
+
+    ancient_debris: 
+      xp: 120.0      
+    nether_gold_ore: { xp: 5.0 }
+    obsidian: { xp: 15.0 }    
+    end_stone: { xp: 0.2 }   
+
+    amethyst_cluster: { xp: 5.0 }
+    amethyst_block: { xp: 2.0 }
+    reinforced_deepslate: { xp: 100.0 } 
+    ice: { xp: 0.1 }
+    blue_ice: { xp: 1.0 }
+tags:
+  mining_luck_applicable:
+  - '*'
+  speed_mine_applicable:
+  - '*'

@@ -1,0 +1,123 @@
+Miner:
+    fullname: Minero
+    shortname: M
+    FullDescription:
+      - "&7Gana dinero extrayendo minerales"
+      - "&7y excavando en las profundidades."
+    ChatColour: DARK_GRAY
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "Corazón de Piedra"
+        Objectives:
+          - Break;stone;500
+          - Break;iron_ore;20
+        RewardCommands:
+          - eco give [playerName] 150
+          - msg [playerName] &8¡Has extraído suficiente material para la construcción!
+        RewardDesc:
+          - "&7Pica piedra y hierro para obtener &a$150&7."
+    Gui:
+      ItemStack: iron_pickaxe
+    
+    Break:
+      stone:
+        income: 0.02
+        points: 0.02
+        experience: 0.05
+      granite:
+        income: 0.03
+        points: 0.03
+        experience: 0.05
+      diorite:
+        income: 0.03
+        points: 0.03
+        experience: 0.05
+      andesite:
+        income: 0.03
+        points: 0.03
+        experience: 0.05
+      deepslate: 
+        income: 0.05
+        points: 0.05
+        experience: 0.1
+      netherrack:
+        income: 0.01
+        points: 0.01
+        experience: 0.02
+
+      coal_ore:
+        income: 0.8
+        points: 0.8
+        experience: 1.0
+      deepslate_coal_ore:
+        income: 1.0
+        points: 1.0
+        experience: 1.2
+      raw_copper_block: 
+        income: 2.0
+        points: 2.0
+        experience: 5.0
+      iron_ore:
+        income: 1.5
+        points: 1.5
+        experience: 2.5
+      deepslate_iron_ore:
+        income: 1.8
+        points: 1.8
+        experience: 3.0
+      gold_ore:
+        income: 3.0
+        points: 3.0
+        experience: 5.0
+      deepslate_gold_ore:
+        income: 3.5
+        points: 3.5
+        experience: 6.0
+      lapis_ore:
+        income: 4.0
+        points: 4.0
+        experience: 5.0
+      diamond_ore:
+        income: 12.0
+        points: 12.0
+        experience: 30.0
+      deepslate_diamond_ore:
+        income: 15.0
+        points: 15.0
+        experience: 40.0
+      emerald_ore:
+        income: 20.0
+        points: 20.0
+        experience: 50.0
+      ancient_debris:
+        income: 40.0
+        points: 40.0
+        experience: 100.0
+
+    TNTBreak:
+      stone:
+        income: 0.01
+      deepslate:
+        income: 0.02
+      iron_ore:
+        income: 0.5
+      diamond_ore:
+        income: 5.0
+
+    Place:
+      iron_ore:
+        income: -5.0
+      gold_ore:
+        income: -10.0
+      diamond_ore:
+        income: -20.0

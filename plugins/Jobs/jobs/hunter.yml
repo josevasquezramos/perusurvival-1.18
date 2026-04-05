@@ -1,0 +1,189 @@
+Hunter:
+    fullname: Cazador
+    shortname: H
+    FullDescription:
+      - "&7Gana dinero cazando animales,"
+      - "&7monstruos y enemigos temibles."
+    ChatColour: RED
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "Depredador Nocturno"
+        Objectives:
+          - Kill;Creeper;5
+          - Kill;Skeleton;15
+          - Kill;Zombie;15
+        RewardCommands:
+          - eco give [playerName] 150
+          - msg [playerName] &c¡Limpieza completada! Los ciudadanos duermen tranquilos.
+        RewardDesc:
+          - "&7Elimina amenazas nocturnas para obtener &a$150&7."
+    Gui:
+      ItemStack: bow
+
+    Kill:
+      Chicken:
+        income: 0.5
+        points: 0.5
+        experience: 1.0
+      Cow:
+        income: 0.8
+        points: 0.8
+        experience: 1.0
+      Pig:
+        income: 0.8
+        points: 0.8
+        experience: 1.0
+      Sheep:
+        income: 0.8
+        points: 0.8
+        experience: 1.0
+      Rabbit:
+        income: 1.5
+        points: 1.5
+        experience: 2.0
+
+      Zombie:
+        income: 1.5
+        points: 1.5
+        experience: 3.0
+      Skeleton:
+        income: 1.5
+        points: 1.5
+        experience: 3.0
+      Spider:
+        income: 2.0
+        points: 2.0
+        experience: 4.0
+      Creeper:
+        income: 4.0
+        points: 4.0
+        experience: 10.0
+      
+      Enderman:
+        income: 5.0
+        points: 5.0
+        experience: 15.0
+      Blaze:
+        income: 3.0
+        points: 3.0
+        experience: 8.0
+      Ghast:
+        income: 15.0
+        points: 15.0
+        experience: 30.0
+      Guardian:
+        income: 8.0
+        points: 8.0
+        experience: 20.0
+      Shulker:
+        income: 25.0
+        points: 25.0
+        experience: 50.0
+      Phantom:
+        income: 10.0
+        points: 10.0
+        experience: 20.0
+      Witch:
+        income: 10.0
+        points: 10.0
+        experience: 20.0
+
+      Wither:
+        income: 500.0
+        points: 500.0
+        experience: 1000.0
+      Ender_Dragon:
+        income: 1500.0
+        points: 1500.0
+        experience: 3000.0
+      
+      # Otros
+      Iron_Golem:
+        income: 2.0
+        points: 2.0
+        experience: 5.0
+      Player:
+        income: 25.0
+        points: 25.0
+        experience: 50.0
+      
+      alexsmobs:grizzly_bear:
+        income: 8.0
+        points: 8.0
+        experience: 20.0
+      alexsmobs:bone_serpent:
+        income: 10.0
+        points: 10.0
+        experience: 25.0
+      alexsmobs:crimson_mosquito:
+        income: 6.0
+        points: 6.0
+        experience: 15.0
+      alexsmobs:crocodile:
+        income: 7.0
+        points: 7.0
+        experience: 18.0
+      alexsmobs:guster:
+        income: 5.0
+        points: 5.0
+        experience: 12.0
+      alexsmobs:warped_mosco:
+        income: 50.0
+        points: 50.0
+        experience: 150.0
+      alexsmobs:tarantula_hawk:
+        income: 12.0
+        points: 12.0
+        experience: 30.0
+      alexsmobs:froststalker:
+        income: 4.0
+        points: 4.0
+        experience: 10.0
+      alexsmobs:rock_borer:
+        income: 2.0
+        points: 2.0
+        experience: 5.0
+      alexsmobs:centipede_body:
+        income: 3.0
+        points: 3.0
+        experience: 8.0
+      alexsmobs:rattlesnake:
+        income: 4.5
+        points: 4.5
+        experience: 11.0
+      alexsmobs:alligator_snapping_turtle:
+        income: 6.5
+        points: 6.5
+        experience: 15.0
+      alexsmobs:anaconda:
+        income: 9.0
+        points: 9.0
+        experience: 22.0
+      alexsmobs:murmur:
+        income: 15.0
+        points: 15.0
+        experience: 40.0
+      alexsmobs:void_worm:
+        income: 250.0
+        points: 250.0
+        experience: 1000.0
+
+    Tame: 
+      Wolf:
+        income: 10.0
+        points: 10.0
+        experience: 20.0
+      Horse:
+        income: 15.0
+        points: 15.0
+        experience: 30.0

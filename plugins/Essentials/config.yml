@@ -5,7 +5,7 @@
 ############################################################
 
 # This is the config file for EssentialsX.
-# This config was generated for version 2.22.0-dev+75-8e3b24f.
+# This config was generated for version 2.21.2.
 # View the up-to-date default config at https://git.io/JG4z1
 
 # If you want to use special characters in this document, such as accented letters, you MUST save the file as UTF-8, not ANSI.
@@ -39,7 +39,7 @@ max-nick-length: 15
 # The regex pattern used to determine if a requested nickname should be allowed for use.
 # If the requested nickname does not match this pattern, the nickname will be rejected.
 # Players with 'essentials.nick.allowunsafe' will be able to bypass this check.
-allowed-nicks-regex: '^[a-zA-Z_0-9§]+$'
+allowed-nicks-regex: '^[a-zA-Z_0-9§]'
 
 # A list of phrases that cannot be used in nicknames. You can include regular expressions here.
 # Players with 'essentials.nick.blacklist.bypass' will be able to bypass this filter.
@@ -78,7 +78,7 @@ change-tab-complete-name: false
 #add-prefix-in-playerlist: true
 
 # When this option is enabled, player suffixes will be shown in the (tab) player list.
-# This feature only works for Minecraft version 1.8 and higher.
+# This feature only works for Minecraft version 1.8 and higher. 
 # The value of 'change-playerlist' above must be true.
 #add-suffix-in-playerlist: true
 
@@ -234,11 +234,6 @@ world-change-fly-reset: true
 # Setting this to true will make Essentials preserve a player's flight status when they change worlds.
 # This will only work if the player has the 'essentials.fly' permission.
 world-change-preserve-flying: true
-
-# Should Essentials preserve a player's flight status when they change game modes?
-# When enabled, if a player is flying when switching game modes, their flight will be maintained.
-# This will only work if the player has the 'essentials.fly' permission.
-gamemode-change-preserve-flying: false
 
 # When a player changes worlds, should Essentials reset their speed according to their permissions?
 # This resets the player's speed to the default if they don't have 'essentials.speed'.
@@ -460,7 +455,7 @@ debug: false
 # For example, to set the language to English, set locale to 'en'. It will then use the file 'messages_en.properties'.
 # Don't forget to remove the # in front of the line.
 # For more information, visit https://essentialsx.net/wiki/Locale.html
-#locale: en
+locale: es
 
 # Should Essentials use the player's language instead of the server's when sending messages?
 # This is useful if you want to use a different language for your server than for your players.
@@ -484,27 +479,10 @@ remove-god-on-disconnect: false
 # Set to -1 for no timeout.
 auto-afk: 300
 
-# After this timeout in seconds, the player will either be kicked from
-# the server or commands in 'afk-timeout-commands' will be executed.
+# After this timeout in seconds, the player will be kicked from the server.
 # The 'essentials.afk.kickexempt' permission overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-timeout: -1
-
-# A list of commands to be executed instead of kicking the player once the
-# threshold defined above in 'afk-auto-timeout' is reached. If this list is empty 
-# and 'afk-auto-timeout' is not set to -1, Essentials will default to
-# kicking the player once they reach the timeout threshold.
-#
-# WARNING: You must include a command here that either removes the player from the server
-# or stops them from being AFK. Otherwise, these commands will run every second
-# until the player is no longer AFK!
-#
-# Available placeholders:
-# {USERNAME} - The player's username.
-# {KICKTIME} - The time, in minutes, the player has been AFK for.
-afk-timeout-commands:
-  #- eco take {USERNAME} 10
-  #- kick {USERNAME} You have been kicked for being inactive for {KICKTIME} minutes! You lost $10.
+auto-afk-kick: -1
 
 # Set this to true if you want to freeze players when they are AFK.
 # Other players or monsters won't be able to push them out of AFK mode.
@@ -588,7 +566,7 @@ custom-quit-message: "none"
 # Set this to "none" to use the 'custom-join-message' setting for every join.
 #
 # Available placeholders:
-# {PLAYER} - The player's display name.
+# {PLAYER} - The player's display name. 
 # {USERNAME} - The player's username.
 # {OLDUSERNAME} - The player's old username.
 # {PREFIX} - The player's prefix.
@@ -601,10 +579,6 @@ custom-new-username-message: "none"
 # Should Essentials override the vanilla "Server Full" message with its own from the language file?
 # Set to false to keep the vanilla message.
 use-custom-server-full-message: true
-
-# Should Essentials override the vanilla "You are not whitelisted on this server" message with its own from the language file?
-# Set to false to keep the vanilla message.
-use-custom-whitelist-message: true
 
 # You can disable join and quit messages when the player count reaches a certain limit.
 # When the player count is below this number, join/quit messages will always be shown.
@@ -769,10 +743,6 @@ safe-usermap-names: true
 # Example: CommandBlock at <x>,<y>,<z> issued server command: /<command>
 log-command-block-commands: true
 
-# Should Essentials output logs when console executes a command?
-# Example: CONSOLE issued server command: /<command>
-log-console-commands: true
-
 # Set the maximum speed for projectiles spawned with /fireball.
 max-projectile-speed: 8
 
@@ -814,8 +784,10 @@ world-home-permissions: false
 # For more information, visit https://wiki.ess3.net/wiki/Multihome
 sethome-multiple:
   default: 3
-  vip: 5
-  staff: 10
+  cachimbo: 7
+  egresado: 15
+  rector: 30
+
 
 # Controls whether players need the permission 'essentials.home.compass' in order to point
 # the player's compass toward their first home.
@@ -854,7 +826,7 @@ command-costs:
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, such as accented letters,
 # you MUST save the file as UTF-8, not ANSI.
-currency-symbol: '$'
+currency-symbol: ''
 
 # Enable this to make the currency symbol appear at the end of the amount rather than at the start.
 # For example, the euro symbol typically appears after the current amount.
@@ -871,10 +843,6 @@ min-money: -10000
 
 # Enable this to log all interactions with buy/sell/trade signs and the sell command.
 economy-log-enabled: false
-
-# Enable this to replace usernames with UUIDs in the trade.log file.
-# If this is false, usernames will be used instead of UUIDs.
-economy-log-uuids: false
 
 # Enable this to also log all transactions from other plugins through Vault.
 # This can cause the economy log to fill up quickly so it should only be enabled for testing purposes!
@@ -897,15 +865,10 @@ baltop-requirements:
   minimum-balance: 0
   minimum-playtime: 0
 
-# Limit the number of cached balance top entries. 
-# Recommended for servers with a large number of players, as it reduces memory usage. 
-# Set to -1 to disable the limit.
-baltop-entry-limit: -1
-
 # The format of currency, excluding symbols. For symbol configuration, see 'currency-symbol-format-locale' below.
 #
 # "#,##0.00" is how the majority of countries display currency.
-#currency-format: "#,##0.00"
+currency-format: "S/ #,##0.00"
 
 # Format currency symbols. Some locales use , and . interchangeably.
 # Certain formats may not display correctly in-game due to Minecraft font rendering issues.
@@ -962,7 +925,7 @@ chat:
   # You can add command costs for shout/question by adding 'chat-shout' and 'chat-question' to the 'command-costs' section above.
   radius: 0
 
-  # Chat formatting can be configured in two ways:
+  # Chat formatting can be configured in two ways: 
   #  - A standard format for all chat ('format' section)
   #  - Group-specific chat formats for extra variation ('group-formats' section)
   #
@@ -990,7 +953,7 @@ chat:
   # Note: The {DISPLAYNAME} placeholder includes {PREFIX} and {SUFFIX} by default.
   # Using these together may result in double prefixes/suffixes in chat.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
+  format: '{DISPLAYNAME} &8»&r {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -1066,7 +1029,6 @@ protect:
     fireball-fire: false
     fireball-playerdamage: false
     fireball-itemdamage: false
-    windcharge-explosion: false
     witherskull-explosion: false
     witherskull-playerdamage: false
     witherskull-itemdamage: false
@@ -1263,7 +1225,7 @@ newbies:
 # Set this to 'high' if you want Essentials Spawn to handle the respawning.
 # Set this to 'highest' if you want to force Essentials Spawn to handle the respawning.
 # Note: Changes will not apply until after the server is restarted.
-respawn-listener-priority: high
+respawn-listener-priority: lowest
 
 # What priority should Essentials use for handling spawning on joining the server?
 # See 'respawn-listener-priority' above for possible values.
@@ -1272,7 +1234,7 @@ respawn-listener-priority: high
 spawn-join-listener-priority: high
 
 # When players die, should they respawn at their first home or bed instead of the spawnpoint?
-respawn-at-home: false
+respawn-at-home: true
 
 # When players die, should they respawn at their bed instead of their first home or the spawnpoint?
 # The 'respawn-at-home' setting above must also be true for this to take effect.
@@ -1296,7 +1258,7 @@ random-respawn-location: "none"
 spawn-on-join: false
 # The following value of 'guests' states that all players in the 'guests' group will be teleported to spawn when joining.
 #spawn-on-join: guests
-# The following list value states that all players in the 'guests' or 'admin' groups will be teleported to spawn when joining.
+# The following list value states that all players in the 'guests' or 'admin' groups will be teleported to spawn when joining. 
 #spawn-on-join:
 #  - guests
 #  - admin

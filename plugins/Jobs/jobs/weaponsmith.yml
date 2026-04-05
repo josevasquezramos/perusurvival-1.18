@@ -1,0 +1,104 @@
+Weaponsmith:
+    fullname: Armero
+    shortname: A
+    FullDescription:
+      - "&7Gana dinero fabricando, reparando"
+      - "&7y fundiendo metales de guerra."
+    ChatColour: DARK_PURPLE
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "Maestro de Forja"
+        Objectives:
+          - Craft;iron_sword;5
+          - Craft;iron_chestplate;2
+        RewardCommands:
+          - eco give [playerName] 200
+          - msg [playerName] &d¡Forja completada! Tus armas servirán en la batalla.
+        RewardDesc:
+          - "&7Fabrica equipo de hierro para obtener &a$200&7."
+    Gui:
+      ItemStack: anvil
+    
+    Craft:
+      wooden_sword:
+        income: 0.5
+        points: 0.5
+        experience: 1.0
+      leather_helmet:
+        income: 1.5
+        points: 1.5
+        experience: 3.0
+      leather_chestplate:
+        income: 2.5
+        points: 2.5
+        experience: 5.0
+      iron_sword:
+        income: 3.0
+        points: 3.0
+        experience: 6.0
+      iron_helmet:
+        income: 5.0
+        points: 5.0
+        experience: 10.0
+      iron_chestplate:
+        income: 8.0
+        points: 8.0
+        experience: 15.0
+      gold_sword:
+        income: 4.0
+        points: 4.0
+        experience: 8.0
+      gold_chestplate:
+        income: 10.0
+        points: 10.0
+        experience: 20.0
+      diamond_sword:
+        income: 10.0
+        points: 10.0
+        experience: 25.0
+      diamond_chestplate:
+        income: 25.0
+        points: 25.0
+        experience: 60.0
+      netherite_sword: 
+        income: 50.0
+        points: 50.0
+        experience: 150.0
+
+    Repair:
+      wood_sword:
+        income: 0.2
+        points: 0.2
+        experience: 0.5
+      iron_sword:
+        income: 1.0
+        points: 1.0
+        experience: 2.0
+      gold_sword:
+        income: 1.5
+        points: 1.5
+        experience: 3.0
+      diamond_sword:
+        income: 5.0
+        points: 5.0
+        experience: 10.0
+
+    Smelt:
+      raw_iron:
+        income: 0.5
+        points: 0.5
+        experience: 1.0
+      raw_gold:
+        income: 1.0
+        points: 1.0
+        experience: 2.0

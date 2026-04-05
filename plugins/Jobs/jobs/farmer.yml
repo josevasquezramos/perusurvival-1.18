@@ -1,0 +1,127 @@
+Farmer:
+    fullname: Granjero
+    shortname: Fa
+    FullDescription:
+      - "&7Gana dinero cosechando cultivos,"
+      - "&7criando animales y recolectando."
+    ChatColour: BLUE
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "El Buen Pastor"
+        Objectives:
+          - Breed;Sheep;5
+          - Shear;White;10
+          - Milk;Cow;5
+        RewardCommands:
+          - eco give [playerName] 150
+          - msg [playerName] &b¡Gran trabajo! Tus animales están felices y sanos.
+        RewardDesc:
+          - "&7Cuida de tus animales para obtener &a$150&7."
+    Gui:
+      ItemStack: iron_hoe
+
+    Breed:
+      Horse:
+        income: 5.0
+        experience: 10.0
+      Sheep:
+        income: 3.0
+        experience: 5.0
+      Cow:
+        income: 3.0
+        experience: 5.0
+      Pig:
+        income: 3.0
+        experience: 5.0
+      Chicken:
+        income: 1.5
+        experience: 3.0
+      Turtle:
+        income: 10.0
+        experience: 20.0
+
+    Shear:
+      all:
+        income: 1.5
+        experience: 2.0
+
+    Milk:
+      Cow:
+        income: 0.5
+        experience: 1.0
+
+    Break:
+      wheat-7:
+        income: 0.25
+        experience: 0.5
+      carrots-7:
+        income: 0.25
+        experience: 0.5
+      potatoes-7:
+        income: 0.25
+        experience: 0.5
+      beetroots-3:
+        income: 0.30
+        experience: 0.6
+      nether_wart:
+        income: 0.40
+        experience: 0.8
+      pumpkin:
+        income: 0.50
+        experience: 1.0
+      melon:
+        income: 0.40
+        experience: 0.8
+      sugar_cane:
+        income: 0.20
+        experience: 0.3
+      cactus:
+        income: 0.20
+        experience: 0.3
+      oak_sapling:
+        income: 0.1
+      dandelion:
+        income: 0.1
+      poppy:
+        income: 0.1
+
+    Place:
+      wheat:
+        income: 0.0
+      potatoes:
+        income: 0.0
+      carrots:
+        income: 0.0
+      sugar_cane:
+        income: 0.0
+      pumpkin:
+        income: -1.0 
+
+    Collect:
+      sweet_berries-3:
+        income: 0.3
+        experience: 0.5
+      glow_berries:
+        income: 0.5
+        experience: 1.0
+      honeybottle:
+        income: 5.0
+        experience: 10.0
+      honeycomb:
+        income: 3.0
+        experience: 5.0
+
+    Kill:
+      Player:
+        income: 10.0
+        experience: 10.0

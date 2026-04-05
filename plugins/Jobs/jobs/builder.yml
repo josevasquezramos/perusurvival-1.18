@@ -1,0 +1,161 @@
+Builder:
+  fullname: Constructor
+  shortname: C
+  FullDescription:
+  - "Earns money for building structures."
+  ChatColour: WHITE
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Architect
+      Objectives:
+      - Place;spruce_planks;50
+      - Place;birch_planks;50
+      - Place;wool;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Place blocks and get money
+      - Get 100 for this!
+  Gui:
+    ItemStack: brick_stairs
+  Place:
+    cobblestone:
+        income: 0.01
+        points: 0.01
+        experience: 0.05
+    stone:
+        income: 0.02
+        points: 0.02
+        experience: 0.08
+    andesite:
+        income: 0.02
+        points: 0.02
+        experience: 0.08
+    granite:
+        income: 0.02
+        points: 0.02
+        experience: 0.08
+    diorite:
+        income: 0.02
+        points: 0.02
+        experience: 0.08
+    oak_planks:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    spruce_planks:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    birch_planks:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    jungle_planks:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    acacia_planks:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    dark_oak_planks:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    wool:
+        income: 0.03
+        points: 0.03
+        experience: 0.1
+    oak_slab:
+        income: 0.02
+        points: 0.02
+        experience: 0.05
+    stone_slab:
+        income: 0.02
+        points: 0.02
+        experience: 0.05
+    cobblestone_stairs:
+        income: 0.04
+        points: 0.04
+        experience: 0.12
+    oak_stairs:
+        income: 0.04
+        points: 0.04
+        experience: 0.12
+    stone_bricks:
+        income: 0.05
+        points: 0.05
+        experience: 0.15
+    bricks:
+        income: 0.08
+        points: 0.08
+        experience: 0.2
+    glass:
+        income: 0.05
+        points: 0.05
+        experience: 0.1
+    white_stained_glass:
+        income: 0.06
+        points: 0.06
+        experience: 0.12
+    bookshelf:
+        income: 0.10
+        points: 0.10
+        experience: 0.3
+    obsidian:
+        income: 0.50
+        points: 0.50
+        experience: 1.5
+    sea_lantern:
+        income: 0.40
+        points: 0.40
+        experience: 1.2
+    glowstone:
+        income: 0.20
+        points: 0.20
+        experience: 0.6
+    enchanting_table:
+        income: 5.0
+        points: 5.0
+        experience: 10.0
+    ender_chest:
+        income: 2.0
+        points: 2.0
+        experience: 5.0
+    iron_block:
+        income: 0.50
+        points: 0.50
+        experience: 1.0
+    gold_block:
+        income: 1.0
+        points: 1.0
+        experience: 2.0
+    diamond_block:
+        income: 5.0
+        points: 5.0
+        experience: 10.0
+    emerald_block:
+        income: 3.0
+        points: 3.0
+        experience: 6.0
+    terracotta:
+        income: 0.05
+        points: 0.05
+        experience: 0.15
+    Kill:
+      Player:
+        income: 10.0
+        points: 10.0
+        experience: 10.0

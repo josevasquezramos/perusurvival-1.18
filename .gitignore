@@ -39,3 +39,5 @@ version_history.json
 plugins/Dynmap/web/
 plugins/CoreProtect/
 plugins/LuckPerms/libs/
+
+docker-compose.yml

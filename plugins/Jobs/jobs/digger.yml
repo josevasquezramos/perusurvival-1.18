@@ -1,0 +1,87 @@
+Digger:
+    fullname: Excavador
+    shortname: D
+    FullDescription:
+      - "&7Gana dinero transformando el terreno"
+      - "&7y excavando materiales básicos."
+    ChatColour: GOLD
+    chat-display: full
+    max-level: 200
+    leveling-progression-equation: 100*(joblevel)+(joblevel*joblevel*1.5)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))*((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1)*0.01))
+    rejoinCooldown: 10
+    maxDailyQuests: 1
+    Quests:
+      '1':
+        Name: "Topo Terrestre"
+        Objectives:
+          - Break;dirt;500
+          - Break;sand;200
+        RewardCommands:
+          - eco give [playerName] 150
+          - msg [playerName] &6¡Has movido una montaña de tierra!
+        RewardDesc:
+          - "&7Excava tierra y arena para obtener &a$150&7."
+    Gui:
+      ItemStack: iron_shovel
+    Break:
+      dirt:
+        income: 0.05
+        points: 0.05
+        experience: 0.1
+      grass_block:
+        income: 0.06
+        points: 0.06
+        experience: 0.12
+      coarse_dirt:
+        income: 0.08
+        points: 0.08
+        experience: 0.15
+      sand:
+        income: 0.10
+        points: 0.10
+        experience: 0.2
+      red_sand:
+        income: 0.12
+        points: 0.12
+        experience: 0.25
+      gravel:
+        income: 0.15
+        points: 0.15
+        experience: 0.3
+      clay:
+        income: 0.50
+        points: 0.50
+        experience: 1.0
+      snow_block:
+        income: 0.05
+        points: 0.05
+        experience: 0.1
+      soul_sand:
+        income: 0.20
+        points: 0.20
+        experience: 0.4
+      soul_soil:
+        income: 0.20
+        points: 0.20
+        experience: 0.4
+      mycelium:
+        income: 0.50
+        points: 0.50
+        experience: 1.0
+    Place:
+      dirt:
+        income: 0.0
+      grass_block:
+        income: 0.0
+      sand:
+        income: 0.0
+      gravel:
+        income: -1.0
+    Kill:
+      Player:
+        income: 10.0
+        points: 10.0
+        experience: 10.0

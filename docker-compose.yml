@@ -1,9 +1,9 @@
 services:
   minecraft:
     image: eclipse-temurin:17-jre
-    container_name: server_arclight
+    container_name: server_arclight_personal  # Nombre único para tu contenedor
     ports:
-      - "25565:25565"
+      - "25560:25565" 
     volumes:
       - ./:/data
     working_dir: /data

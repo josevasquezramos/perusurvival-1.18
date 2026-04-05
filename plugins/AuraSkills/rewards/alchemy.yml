@@ -1,0 +1,11 @@
+patterns:
+      - type: stat
+        stat: wisdom
+        value: 1.0
+        pattern:
+          interval: 1
+      - type: stat
+        stat: health
+        value: 0.5   
+        pattern:
+          interval: 2
