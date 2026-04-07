@@ -41,7 +41,7 @@ config-version: 2.0.1.6
 #----------------------------------------------Language-------------------------------------------------
 
 # Here you can change the language of the plugin.
-language-file: lang-es.yml
+language-file: lang-en.yml
 
 # See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
 
@@ -488,7 +488,7 @@ transaction-screens-nav-bar:
 # The navigation bar that appears in the buy/sell screens from the shop stands
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
 shopstands-transaction-screens-nav-bar:
-  enabled: false
+  enabled: true
   items:
     1:
       material: player_head
@@ -562,7 +562,7 @@ sellgui-nav-bar:
 allow-renamed-items: true
 
 # Allows items with different lore to be sold to the shop
-allow-lore-items: true
+allow-lore-items: false
 
 # When disabled, all sold items will be sold regardless of their item meta(name, lore, enchantments, armor color, potion types, spawner types, recipes, etc...)
 # and will only be matched according the item type
@@ -617,26 +617,25 @@ display-lore-layout:
   # One of the following lore is displayed on shop items with buy prices based on the items state
   buy-prices:
     normal:
-    - '&7Precio de compra: &aS/ %buy%'
+    - '%translations-left-click-buy%'
     disabled:
-    - '&cEste ítem no se puede comprar'
+    - '%translations-item-cannot-be-bought%'
     undefined:
     - ''
     discounted:
-    - '&7Precio original: &8%buy%'
-    - '&7Precio oferta: &aS/ %discount_price%'
+    - '%translations-discounted-buy-price%'
     seasonal:
     - '%translations-seasonal-buy-price%'
   # One of the following lore is displayed on shop items with sell prices based on the items state
   sell-prices:
     normal:
-    - '&7Precio de venta: &cS/ %sell%'
+    - '%translations-right-click-sell%'
     disabled:
-    - '&cEste ítem no se puede vender'
+    - '%translations-item-cannot-be-sold%'
     undefined:
     - ''
     multiplied:
-    - '&7Precio de venta: &cS/ %sell% &b(x%multiplier%)'
+    - '%translations-multiplied-sell-price%'
     seasonal:
     - '%translations-seasonal-sell-price%'
     # The following lore is displayed on any shop item with a sell price
@@ -648,24 +647,21 @@ display-lore-layout:
   decoration-lore:
     # The following decoration lore is displayed on every shop item with a buy and/or sell price
     extra-lore:
-    - ''
-    - '&eClick izquierdo para comprar'
-    - '&eClick derecho para vender'
+    - '%translations-decoration-lore%'
     # The following decoration lore is displayed on any shop item with a buy price
     extra-buy-lore:
-    - ''
+    - '%translations-decoration-lore-buy%'
     # The following decoration lore is displayed on any shop item with a sell price
     # AND if the shift-right-click-sell-all config option is enabled
     extra-sell-all-lore:
-    - '&6Shift + Click derecho para vender todo'
+    - '%translations-decoration-lore-sell-all%'
     # The following decoration lore is displayed on any shop item with a sell price
     extra-sell-lore:
-    - ''  
+    - '%translations-decoration-lore-sell%'
   # More detailed item lore which is only shown for specific permissions
   admin-lore:
     # The following lore is only displayed on shop items if players have the 'EconomyShopGUI.itemindexes' permission
     item-index: '%translations-item-location-in-shop%'
-
 
 # Enable/disable the lore on items given to players when an item is bought from shop
 bought-items-lore: true
@@ -1312,9 +1308,5 @@ spawner-break-tools:
     material: NETHERITE_PICKAXE
     enchantments:
     - 'SILK_TOUCH'
-show-buy-price-in-lore: true
-show-sell-price-in-lore: true
-hide-sell-price-if-zero: true
-currency-symbol-suffix: false
 
 # NOTE: When any other 3rd party spawner provider is enabled and setup, these options will no longer work since they are not controlled anymore by ESGUI

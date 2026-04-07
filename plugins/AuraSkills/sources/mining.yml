@@ -5,51 +5,119 @@ default:
   menu_item:
     material: '{block}'
 sources:
-  stone: { xp: 0.1 }       
-  cobblestone: { xp: 0.1 }
-  andesite: { xp: 0.1 }
-  diorite: { xp: 0.1 }
-  granite: { xp: 0.1 }
-  sandstone: { xp: 0.1 }
-  deepslate: { xp: 0.2 }    
-  tuff: { xp: 0.2 }
-  netherrack: { xp: 0.05 }  
-
-  coal_ore: { xp: 1.0 }
-  iron_ore: { xp: 1.5 }
-  copper_ore: { xp: 1.0 }  
-  nether_quartz_ore: { xp: 1.2 } 
-
-  lapis_ore: 
-      xp: 8.0      
-  redstone_ore: 
-      xp: 4.0      
-  gold_ore: 
-      xp: 12.0      
-  diamond_ore: 
-      xp: 35.0       
-  emerald_ore: 
-      xp: 50.0    
-
-  deepslate_coal_ore: { xp: 1.2 }
-  deepslate_iron_ore: { xp: 2.0 }
-  deepslate_gold_ore: { xp: 15.0 }
-  deepslate_redstone_ore: { xp: 5.0 }
-  deepslate_lapis_ore: { xp: 10.0 }
-  deepslate_diamond_ore: { xp: 45.0 }
-  deepslate_emerald_ore: { xp: 65.0 }
-
-  ancient_debris: 
-      xp: 120.0      
-  nether_gold_ore: { xp: 5.0 }
-  obsidian: { xp: 15.0 }    
-  end_stone: { xp: 0.2 }   
-
-  amethyst_cluster: { xp: 5.0 }
-  amethyst_block: { xp: 2.0 }
-  reinforced_deepslate: { xp: 100.0 } 
-  ice: { xp: 0.1 }
-  blue_ice: { xp: 1.0 }
+  stone:
+    xp: 0.1
+  cobblestone:
+    xp: 0.1
+  andesite:
+    xp: 0.1
+  diorite:
+    xp: 0.1
+  granite:
+    xp: 0.1
+  sandstone:
+    xp: 0.1
+  deepslate:
+    xp: 0.2
+  tuff:
+    xp: 0.2
+  netherrack:
+    xp: 0.05
+  coal_ore:
+    xp: 1.0
+  iron_ore:
+    xp: 1.5
+  copper_ore:
+    xp: 1.0
+  nether_quartz_ore:
+    xp: 1.2
+  lapis_ore:
+    xp: 8.0
+  redstone_ore:
+    xp: 4.0
+  gold_ore:
+    xp: 12.0
+  diamond_ore:
+    xp: 35.0
+  emerald_ore:
+    xp: 50.0
+  deepslate_coal_ore:
+    xp: 1.2
+  deepslate_iron_ore:
+    xp: 2.0
+  deepslate_gold_ore:
+    xp: 15.0
+  deepslate_redstone_ore:
+    xp: 5.0
+  deepslate_lapis_ore:
+    xp: 10.0
+  deepslate_diamond_ore:
+    xp: 45.0
+  deepslate_emerald_ore:
+    xp: 65.0
+  ancient_debris:
+    xp: 120.0
+  nether_gold_ore:
+    xp: 5.0
+  obsidian:
+    xp: 15.0
+  end_stone:
+    xp: 0.2
+  amethyst_cluster:
+    xp: 5.0
+  amethyst_block:
+    xp: 2.0
+  reinforced_deepslate:
+    xp: 100.0
+  ice:
+    xp: 0.1
+  blue_ice:
+    xp: 1.0
+  light_gray_terracotta:
+    block: light_gray_terracotta
+    xp: 0.5
+  calcite:
+    block: calcite
+    xp: 0.8
+  brown_terracotta:
+    block: brown_terracotta
+    xp: 0.5
+  packed_ice:
+    block: packed_ice
+    xp: 0.8
+  terracotta:
+    block: terracotta
+    xp: 0.5
+  red_terracotta:
+    block: red_terracotta
+    xp: 0.5
+  dripstone_block:
+    block: dripstone_block
+    xp: 3.2
+  blackstone:
+    block: blackstone
+    xp: 0.3
+  white_terracotta:
+    block: white_terracotta
+    xp: 0.5
+  basalt:
+    block: basalt
+    xp: 0.4
+  yellow_terracotta:
+    block: yellow_terracotta
+    xp: 0.5
+  orange_terracotta:
+    block: orange_terracotta
+    xp: 0.5
+  deepslate_copper_ore:
+    block: deepslate_copper_ore
+    xp: 4.2
+  smooth_basalt:
+    block: smooth_basalt
+    xp: 0.8
+  magma_block:
+    block: magma_block
+    xp: 0.7
 tags:
   mining_luck_applicable:
   - '*'

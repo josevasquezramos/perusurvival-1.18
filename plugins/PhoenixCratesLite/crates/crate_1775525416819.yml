@@ -1,0 +1,592 @@
+enabled: true
+identifier: crate_fire
+display-name: '&#FF9000Fire'
+block-material: ORANGE_SHULKER_BOX
+engine: VANILLA_BLOCK
+open-money-cost: 0.0
+open-cooldown: 0
+simultaneous-openings: true
+preview-item: false
+permission:
+  required: false
+  permission: phoenixcrates.crate.crate_1775525416819
+animation:
+  idle-effects:
+  - DEFAULT;{REDSTONE;#ffd700;0.0;0.0;0.0;1.2000000000000002;0.10000000000000003;2}
+  - DEFAULT;{FLAME;#ffffff;0.30000000000000004;0.2;0.30000000000000004;0.1;0.0;2}
+  - DEFAULT;{DRIP_LAVA;#ffffff;0.2;0.0;0.2;0.10000000000000003;0.0;1}
+  - DEFAULT;{REDSTONE;#ffffff;0.0;0.6;0.0;0.7999999999999999;0.1;1}
+  opening-animations:
+    '0':
+    - CRACK;{}
+    - NONE;{}
+    - SMOKE_SPIRAL;{#ff7f50}
+hologram:
+  lines:
+  - '&e&l%name% Crate'
+  - ''
+  - '&aʀɪɢʜᴛ &7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ'
+  - '&cʟᴇꜰᴛ &7ᴄʟɪᴄᴋ ᴛᴏ ᴘʀᴇᴠɪᴇᴡ'
+  offset: 0.0
+menus:
+  rewards: default_rewards_preview
+  select-reward: default_select_reward
+key-required: true
+linked-keys-ids:
+- key_crate_fire
+broadcast:
+  message: '&ePlayer &a%player% &ejust got &6"%reward%" &ereward from the crate &6%crate%&e!'
+max-win-rewards: 0
+rewards-mode: RANDOM
+guaranteed-reward-type: SEQUENTIAL
+rewards:
+  '0':
+    identifier: reward_1775525417233
+    display-item:
+      material: custom:diamond_helmet
+      amount: 1
+    win-items:
+      '0':
+        material: custom:diamond_helmet
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '1':
+    identifier: reward_1775525417235
+    display-item:
+      material: custom:diamond_chestplate
+      amount: 1
+    win-items:
+      '0':
+        material: custom:diamond_chestplate
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '2':
+    identifier: reward_1775525417237
+    display-item:
+      material: custom:diamond_leggings
+      amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:diamond_leggings
+        amount: 1
+  '3':
+    identifier: reward_1775525417239
+    display-item:
+      material: custom:diamond_boots
+      amount: 1
+    win-items:
+      '0':
+        material: custom:diamond_boots
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '4':
+    identifier: reward_1775525417241
+    display-item:
+      material: custom:diamond_sword
+      amount: 1
+    win-items:
+      '0':
+        material: custom:diamond_sword
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '5':
+    identifier: reward_1775525417243
+    display-item:
+      material: custom:diamond_pickaxe
+      amount: 1
+    win-items:
+      '0':
+        material: custom:diamond_pickaxe
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '6':
+    identifier: reward_1775525417245
+    display-item:
+      material: custom:bow
+      amount: 1
+    win-items:
+      '0':
+        material: custom:bow
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '7':
+    identifier: reward_1775525417247
+    display-item:
+      material: custom:shield
+      amount: 1
+    win-items:
+      '0':
+        material: custom:shield
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '8':
+    identifier: reward_1775525417249
+    display-item:
+      material: custom:arrow
+      amount: 32
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:arrow
+        amount: 32
+  '9':
+    identifier: reward_1775525417251
+    display-item:
+      material: custom:llave_economy_crate1
+      amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:llave_economy_crate1
+        amount: 1
+  '10':
+    identifier: reward_1775525417253
+    display-item:
+      material: custom:ender_chest
+      amount: 1
+    win-items:
+      '0':
+        material: custom:ender_chest
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '11':
+    identifier: reward_1775525417255
+    display-item:
+      material: custom:totem_of_undying
+      amount: 1
+    win-items:
+      '0':
+        material: custom:totem_of_undying
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '12':
+    identifier: reward_1775525417257
+    display-item:
+      material: custom:bell
+      amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:bell
+        amount: 1
+  '13':
+    identifier: reward_1775525417259
+    display-item:
+      material: custom:cooked_mutton
+      amount: 32
+    win-items:
+      '0':
+        material: custom:cooked_mutton
+        amount: 32
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '14':
+    identifier: reward_1775525417261
+    display-item:
+      material: custom:golden_apple
+      amount: 6
+    win-items:
+      '0':
+        material: custom:golden_apple
+        amount: 6
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '15':
+    identifier: reward_1775525417263
+    display-item:
+      material: custom:golden_carrot
+      amount: 32
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:golden_carrot
+        amount: 32
+  '16':
+    identifier: reward_1775525417265
+    display-item:
+      material: custom:splash_potion
+      amount: 1
+    win-items:
+      '0':
+        material: custom:splash_potion
+        amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '17':
+    identifier: reward_1775525417267
+    display-item:
+      material: custom:splash_potion1
+      amount: 1
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:splash_potion1
+        amount: 1
+  '18':
+    identifier: reward_1775525417269
+    display-item:
+      material: custom:gold_ingot
+      amount: 32
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+    win-items:
+      '0':
+        material: custom:gold_ingot
+        amount: 32
+  '19':
+    identifier: reward_1775525417271
+    display-item:
+      material: custom:iron_ingot
+      amount: 16
+    win-items:
+      '0':
+        material: custom:iron_ingot
+        amount: 16
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '20':
+    identifier: reward_1775525417273
+    display-item:
+      material: custom:diamond
+      amount: 8
+    win-items:
+      '0':
+        material: custom:diamond
+        amount: 8
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []
+  '21':
+    identifier: reward_1775525417275
+    display-item:
+      material: custom:emerald
+      amount: 4
+    win-items:
+      '0':
+        material: custom:emerald
+        amount: 4
+    win-commands: []
+    broadcast: false
+    percentage: 100.0
+    win-limits: -1
+    guaranteed-win: -1
+    restricted-permissions: []
+    alternative-reward:
+      enabled: false
+      reward:
+        item:
+          material: DIAMOND_PICKAXE
+          display-name: '&aAlternative Item'
+          amount: 1
+        virtual: false
+        broadcast: false
+        commands: []

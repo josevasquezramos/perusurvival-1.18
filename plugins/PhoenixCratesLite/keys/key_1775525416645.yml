@@ -1,0 +1,7 @@
+enabled: true
+identifier: key_crate_insane
+virtual: false
+glow: true
+item:
+  material: custom:llave_insane_crate
+  amount: 1

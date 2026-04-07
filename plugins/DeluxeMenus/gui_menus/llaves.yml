@@ -1,0 +1,88 @@
+menu_title: "LLAVES CRATES"
+open_command: crates
+size: 27
+
+items:
+  'item_1':
+    display_name: "&#28F732LLAVE ECONOMY CRATE"
+    material: LIME_CANDLE
+    slot: 10
+    lore:
+      - "&fPrecio: &a$1,500"
+      - ""
+      - "&eHaz clic para comprar."
+    left_click_commands:
+      - "[console] eco take [player] 1500"
+      - "[player] crate giveKey key_crate_economy *"
+      - "[message] &a¡Has comprado una Llave Economy!"
+      - "[close]"
+    left_click_requirement:
+      requirements:
+        money_check:
+          type: has money
+          amount: 1500
+          deny_commands:
+            - "[message] &cNo tienes suficiente dinero ($1,500)."
+
+  'item_2':
+    display_name: "&#FF9000LLAVE FIRE CRATE"
+    material: ORANGE_CANDLE
+    slot: 12
+    lore:
+      - "&fPrecio: &a$4,000"
+      - ""
+      - "&eHaz clic para comprar."
+    left_click_commands:
+      - "[console] eco take [player] 4000"
+      - "[player] crate giveKey key_crate_fire *"
+      - "[message] &a¡Has comprado una Llave Fire!"
+      - "[close]"
+    left_click_requirement:
+      requirements:
+        money_check:
+          type: has money
+          amount: 4000
+          deny_commands:
+            - "[message] &cNo tienes suficiente dinero ($4,000)."
+
+  'item_3':
+    display_name: "&#11FAF3LLAVE INSANE CRATE"
+    material: LIGHT_BLUE_CANDLE
+    slot: 14
+    lore:
+      - "&fPrecio: &a$15,000"
+      - ""
+      - "&eHaz clic para comprar."
+    left_click_commands:
+      - "[console] eco take [player] 15000"
+      - "[player] crate giveKey key_crate_insane *"
+      - "[message] &a¡Has comprado una Llave Insane!"
+      - "[close]"
+    left_click_requirement:
+      requirements:
+        money_check:
+          type: has money
+          amount: 15000
+          deny_commands:
+            - "[message] &cNo tienes suficiente dinero ($15,000)."
+
+  'item_4':
+    display_name: "&#FF0000LLAVE LEGENDARY CRATE"
+    material: RED_CANDLE
+    slot: 16
+    lore:
+      - "&fPrecio: &a$60,000"
+      - ""
+      - "&eHaz clic para comprar."
+    left_click_commands:
+      - "[console] eco take [player] 60000"
+      - "[player] crate giveKey key_crate_legendary *"
+      - "[message] &a¡Has comprado una Llave Legendary!"
+      - "[close]"
+    left_click_requirement:
+      requirements:
+        money_check:
+          type: has money
+          amount: 60000
+          deny_commands:
+            - "[message] &cNo tienes suficiente dinero ($60,000)."

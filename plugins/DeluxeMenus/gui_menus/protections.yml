@@ -10,7 +10,7 @@ items:
     lore:
       - ""
       - "&fProtege un área de &b4 bloques &fde radio."
-      - "&fPrecio: &a$2,500"
+      - "&fPrecio: &aS/2,500"
       - ""
       - "&eHaz clic para comprar este bloque."
     left_click_commands:
@@ -27,7 +27,7 @@ items:
     lore:
       - ""
       - "&fProtege un área de &b8 bloques &fde radio."
-      - "&fPrecio: &a$10,000"
+      - "&fPrecio: &aS/10,000"
       - ""
       - "&eHaz clic para comprar este bloque."
     left_click_commands:
@@ -44,7 +44,7 @@ items:
     lore:
       - ""
       - "&fProtege un área de &b16 bloques &fde radio."
-      - "&fPrecio: &a$40,000"
+      - "&fPrecio: &aS/40,000"
       - ""
       - "&eHaz clic para comprar este bloque."
     left_click_commands:
@@ -61,7 +61,7 @@ items:
     lore:
       - ""
       - "&fProtege un área de &b32 bloques &fde radio."
-      - "&fPrecio: &a$160,000"
+      - "&fPrecio: &aS/160,000"
       - ""
       - "&eHaz clic para comprar este bloque."
     left_click_commands:

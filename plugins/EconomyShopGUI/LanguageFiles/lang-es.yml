@@ -41,7 +41,7 @@ saving-shop-stands: Guardando %count% puestos de tienda en 'stands.json'...
 #Shop prefix
 shop-prefix: '&9&lShop &8&l>> '
 #Main Shop Inventory
-inventory-main-shop-title: '&8&lTienda de servidor'
+inventory-main-shop-title: '&8Tienda de servidor'
 profile: '&aPerfil'
 name: '&6Nombre'
 money: '&6Dinero'
@@ -93,7 +93,7 @@ cancel: '&4Cancelar'
 #Previous/Next/Current page
 previous-page: '&dPagina anterior'
 next-page: '&bSiguiente página'
-current-page: '&7Página: %page%/%pages%'
+current-page: '&7Página:'
 #ShopItem lore
 left-click-buy: '&aClic izquierdo: Comprar: &c%buyPrice%'
 seasonal-buy-price: '&aClick Izquierdo: Comprar: &c&m%buyPrice%&r &a%seasonalBuyPrice%'

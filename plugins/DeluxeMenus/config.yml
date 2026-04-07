@@ -13,3 +13,5 @@ gui_menus:
     file: warps.yml
   protections:
     file: protections.yml
+  llaves:
+    file: llaves.yml

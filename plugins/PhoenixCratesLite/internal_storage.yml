@@ -1,1 +1,805 @@
-items: {}
+items:
+  s500:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#27F54D","text":"S/500"}],"text":""}'
+  llave_comun:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: TRIPWIRE_HOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#27F54D","text":"LLAVE
+        COMUN"}],"text":""}'
+      lore:
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#27F5B4","text":"Usalo
+        para abrir una crate comun"}],"text":""}'
+  s1000:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/1000"}],"text":""}'
+  s1500:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/1500"}],"text":""}'
+  s2000:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/2000"}],"text":""}'
+  s3500:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/3500"}],"text":""}'
+  s5000:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/5000"}],"text":""}'
+  s8000:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/8000"}],"text":""}'
+  s11k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/11K"}],"text":""}'
+  s14k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/14K"}],"text":""}'
+  s17k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/17K"}],"text":""}'
+  s20k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/20K"}],"text":""}'
+  s23k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/23K"}],"text":""}'
+  s26k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/26K"}],"text":""}'
+  s29k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/29K"}],"text":""}'
+  s32k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/32K"}],"text":""}'
+  s37k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/37K"}],"text":""}'
+  s40k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/40K"}],"text":""}'
+  s43k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/43K"}],"text":""}'
+  s45k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/45K"}],"text":""}'
+  s48k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/48K"}],"text":""}'
+  s50k:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#43D149","text":"S/50K"}],"text":""}'
+  llave_economy_crate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LIME_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#28F732","text":"LLAVE
+        ECONOMY CRATE"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":"Intenta hacerte rico"}],"text":""}'
+  diamond_helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_HELMET
+  diamond_chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_CHESTPLATE
+  diamond_leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_LEGGINGS
+  diamond_boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_BOOTS
+  diamond_sword:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_SWORD
+  diamond_pickaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_PICKAXE
+  bow:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BOW
+  shield:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: SHIELD
+  arrow:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ARROW
+  llave_economy_crate1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LIME_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#28F732","text":"LLAVE
+        ECONOMY CRATE"}],"text":""}'
+      lore:
+      - '{"extra":[{"text":"Intenta hacerte rico"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      internal: H4sIAAAAAAAA/+NiYOBgECzIyE/Ny6xILkosSS22yk6tZBAEEvFgfnxqcn5efm4lAwCvMnHyKwAAAA==
+  ender_chest:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ENDER_CHEST
+  totem_of_undying:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: TOTEM_OF_UNDYING
+  bell:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BELL
+  cooked_mutton:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: COOKED_MUTTON
+  golden_apple:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLDEN_APPLE
+  golden_carrot:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLDEN_CARROT
+  splash_potion:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:strong_strength
+  splash_potion1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: SPLASH_POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      potion-type: minecraft:long_fire_resistance
+  gold_ingot:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_INGOT
+  iron_ingot:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: IRON_INGOT
+  diamond:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND
+  emerald:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: EMERALD
+  llave_fire_crate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ORANGE_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9000","text":"LLAVE
+        FIRE CRATE"}],"text":""}'
+  llave_insane_crate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LIGHT_BLUE_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#11FAF3","text":"LLAVE
+        INSANE CRATE"}],"text":""}'
+  diamond_helmet1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  diamond_chestplate1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+        PROTECTION_ENVIRONMENTAL: 4
+  diamond_leggings1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 4
+        DURABILITY: 3
+  diamond_boots1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+        PROTECTION_ENVIRONMENTAL: 4
+  diamond_sword1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 4
+        FIRE_ASPECT: 1
+  diamond_pickaxe1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        LOOT_BONUS_BLOCKS: 2
+  diamond_axe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 4
+        DURABILITY: 3
+  bow1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 4
+        ARROW_FIRE: 1
+  shield1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      enchants:
+        DURABILITY: 3
+      blockMaterial: SHIELD
+  crossbow:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      enchants:
+        MULTISHOT: 1
+        DURABILITY: 3
+      charged: false
+  trident:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        LOYALTY: 3
+  elytra:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 3
+  enchanted_golden_apple:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ENCHANTED_GOLDEN_APPLE
+  llave_fire_crate1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ORANGE_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF9000","text":"LLAVE
+        FIRE CRATE"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      internal: H4sIAAAAAAAA/+NiYOBgECzIyE/Ny6xILkosSS22yk6tZOADEvFgfnxaZlEqAwBa4PqRKAAAAA==
+  llave_insane_crate1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LIGHT_BLUE_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#11FAF3","text":"LLAVE
+        INSANE CRATE"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      internal: H4sIAAAAAAAA/+NiYOBgECzIyE/Ny6xILkosSS22yk6tZBAEEvGG5uampkamJoZmZiamDAAzWhlAKwAAAA==
+  diamond_block:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_BLOCK
+  netherite_block:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_BLOCK
+  villager_spawn_egg:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: VILLAGER_SPAWN_EGG
+  proteccin_de_carbn:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: COAL_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"PROTECCIÓN
+        DE CARBÓN"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Protege
+        un área de "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"4
+        bloques "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"de
+        radio."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Precio:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"$2,500"}],"text":""}'
+      - '{"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b
+  llave_crate_legendary:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: RED_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#FF0000","text":"LLAVE
+        CRATE LEGENDARY"}],"text":""}'
+  netherite_helmet:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_HELMET
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: c2309d8b-7ec5-4e56-ab82-2f7abd987a40
+          slot: HEAD
+          uuid: c2309d8b-7ec5-4e56-ab82-2f7abd987a40
+          operation: 2
+  netherite_chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_CHESTPLATE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: 2691af42-2a1b-437f-b18a-4554e6f99e44
+          slot: CHEST
+          uuid: 2691af42-2a1b-437f-b18a-4554e6f99e44
+          operation: 0
+  netherite_leggings:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_LEGGINGS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_KNOCKBACK_RESISTANCE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: 307bbf41-97cd-43b1-9261-83ed846d601b
+          slot: LEGS
+          uuid: 307bbf41-97cd-43b1-9261-83ed846d601b
+          operation: 2
+  netherite_boots:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_BOOTS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        PROTECTION_ENVIRONMENTAL: 5
+        DURABILITY: 4
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: ed1f3619-1205-4820-8eb6-dc27ea6cf53a
+          slot: FEET
+          uuid: ed1f3619-1205-4820-8eb6-dc27ea6cf53a
+          operation: 2
+  netherite_axe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_AXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 6
+        DAMAGE_ALL: 6
+        DURABILITY: 5
+        MENDING: 1
+  netherite_sword:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 6
+        FIRE_ASPECT: 2
+        KNOCKBACK: 2
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: 9741a877-0f6c-42a1-a17f-d1b4a2aee013
+          slot: HAND
+          uuid: 9741a877-0f6c-42a1-a17f-d1b4a2aee013
+          operation: 0
+  netherite_pickaxe:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: NETHERITE_PICKAXE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DIG_SPEED: 6
+        LOOT_BONUS_BLOCKS: 4
+        MENDING: 1
+      attribute-modifiers:
+        GENERIC_MOVEMENT_SPEED:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.1
+          name: 44ec08cc-3400-4f13-a9b0-cbd57c5227e9
+          slot: HAND
+          uuid: 44ec08cc-3400-4f13-a9b0-cbd57c5227e9
+          operation: 2
+  shield2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: SHIELD
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      enchants:
+        DURABILITY: 5
+        MENDING: 1
+      blockMaterial: SHIELD
+  bow2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BOW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        ARROW_DAMAGE: 6
+        LOOT_BONUS_BLOCKS: 4
+        MENDING: 1
+  crossbow1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: CROSSBOW
+    meta:
+      ==: ItemMeta
+      meta-type: CROSSBOW
+      enchants:
+        QUICK_CHARGE: 3
+        MULTISHOT: 1
+        PIERCING: 4
+        MENDING: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: 0e546460-c7d4-404f-b2cb-373945162775
+          slot: HAND
+          uuid: 0e546460-c7d4-404f-b2cb-373945162775
+          operation: 0
+      charged: false
+  trident1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: TRIDENT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        KNOCKBACK: 5
+        LOYALTY: 4
+        RIPTIDE: 3
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: d0e2661f-932e-4e46-a42c-24fe6812249d
+          slot: HAND
+          uuid: d0e2661f-932e-4e46-a42c-24fe6812249d
+          operation: 0
+  elytra1:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: ELYTRA
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DURABILITY: 6
+        MENDING: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: 1a33d1b9-64b0-46e0-8f42-1704ee7cc413
+          slot: CHEST
+          uuid: 1a33d1b9-64b0-46e0-8f42-1704ee7cc413
+          operation: 0
+        GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 8.0
+          name: 2615ada2-fdfc-4ee1-becd-a54caf66659f
+          slot: CHEST
+          uuid: 2615ada2-fdfc-4ee1-becd-a54caf66659f
+          operation: 0
+  llave_insane_crate2:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: LIGHT_BLUE_CANDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"#11FAF3","text":"LLAVE
+        INSANE CRATE"}],"text":""}'
+      enchants:
+        DURABILITY: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_ATTRIBUTES
+      - HIDE_UNBREAKABLE
+      - HIDE_DESTROYS
+      - HIDE_PLACED_ON
+      - HIDE_POTION_EFFECTS
+      - HIDE_DYE
+      internal: H4sIAAAAAAAA/+NiYOBgECzIyE/Ny6xILkosSS22yk6tZBAAEvFgfnxmXnFiXioDAEwdhZUqAAAA
+  dragon_head:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DRAGON_HEAD
+  beacon:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: BEACON
+  proteccin_de_oro:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: GOLD_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"PROTECCIÓN
+        DE ORO"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Protege
+        un área de "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"16
+        bloques "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"de
+        radio."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Precio:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"$40,000"}],"text":""}'
+      - '{"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b
+  proteccin_de_diamante:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2975
+    type: DIAMOND_ORE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"PROTECCIÓN
+        DE DIAMANTE"}],"text":""}'
+      lore:
+      - '{"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Protege
+        un área de "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"32
+        bloques "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"de
+        radio."}],"text":""}'
+      - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Precio:
+        "},{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"green","text":"$160,000"}],"text":""}'
+      - '{"text":""}'
+      PublicBukkitValues:
+        protectionstones:ispsblock: 1b

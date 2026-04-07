@@ -3,8 +3,8 @@ pages:
     items:
       '1':
         material: BOOKSHELF
-        buy: 120
-        sell: 25
+        buy: 120.0
+        sell: 25.0
       '2':
         material: CALCITE
         buy: 15

@@ -69,14 +69,7 @@ reward:
     name: '&7%reward_name%'
     lore:
     - '%reward_lore%'
-    - ''
-    - '&eYour percentage: &6%percentage%%'
     - '&eYour chance: &6%chance%%'
-    - ''
-    - '&7Check our &6&lWIKI &7to understand the difference'
-    - '&7between percentage and chance.'
-    - ''
-    - '&7(This lore is configured at the menus folder)'
   selective-mode:
     name: '&7%reward_name%'
     lore:

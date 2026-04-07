@@ -94,7 +94,7 @@ pages:
         buy: 0.1
         sell: 0.03
       '24':
-        material: SUGAR_CANE
+        material: SUGAR
         buy: 3.0
         sell: 0.1
       '25':

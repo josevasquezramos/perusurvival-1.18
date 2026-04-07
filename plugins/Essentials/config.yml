@@ -842,11 +842,11 @@ max-money: 10000000000000
 min-money: -10000
 
 # Enable this to log all interactions with buy/sell/trade signs and the sell command.
-economy-log-enabled: false
+economy-log-enabled: true
 
 # Enable this to also log all transactions from other plugins through Vault.
 # This can cause the economy log to fill up quickly so it should only be enabled for testing purposes!
-economy-log-update-enabled: false
+economy-log-update-enabled: true
 
 # The minimum acceptable amount to be used in /pay.
 minimum-pay-amount: 0.001

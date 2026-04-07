@@ -1,2 +1,5 @@
 locations:
   example1: []
+  crate_economy: []
+  crate_fire: []
+  crate_insane: []

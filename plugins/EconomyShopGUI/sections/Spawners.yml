@@ -1,7 +1,7 @@
-enable: true
+enable: false
 slot: 32
 title: ''
-hidden: false
+hidden: true
 sub-section: false
 display-item: false
 fill-item:
