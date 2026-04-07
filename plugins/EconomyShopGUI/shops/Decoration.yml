@@ -4,294 +4,440 @@ pages:
       '1':
         material: CHAIN
         buy: 15.0
-        sell: 1.5   # Requiere hierro, el precio de venta es bajo pero justo
+        sell: 1.5
+        lore:
+          - ' '
       '2':
         material: FLOWER_POT
         buy: 25.0
-        sell: 2.0   # Antes estaba carísimo (69), lo bajamos para que decoren más
+        sell: 2.0
+        lore:
+          - ' '
       '3':
         material: HONEYCOMB_BLOCK
         buy: 40.0
         sell: 5.0
+        lore:
+          - ' '
       '4':
         material: JACK_O_LANTERN
         buy: 10.0
         sell: 1.0
+        lore:
+          - ' '
       '5':
         material: POINTED_DRIPSTONE
         buy: 5.0
         sell: 0.5
+        lore:
+          - ' '
       '6':
         material: SPORE_BLOSSOM
-        buy: 50.0 
+        buy: 50.0
         sell: 5.0
+        lore:
+          - ' '
       '7':
         material: BLACK_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '8':
         material: BLUE_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '9':
         material: BROWN_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '10':
         material: CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '11':
         material: CYAN_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '12':
         material: GRAY_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '13':
         material: GREEN_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '14':
         material: LIGHT_BLUE_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '15':
         material: LIGHT_GRAY_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '16':
         material: LIME_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '17':
         material: MAGENTA_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '18':
         material: ORANGE_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '19':
         material: PINK_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '20':
         material: PURPLE_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '21':
         material: RED_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '22':
         material: WHITE_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '23':
         material: YELLOW_CANDLE
         buy: 12.0
         sell: 1.0
+        lore:
+          - ' '
       '24':
         material: BRAIN_CORAL
         buy: 8.0
         sell: 0.8
+        lore:
+          - ' '
       '25':
         material: BRAIN_CORAL_BLOCK
         buy: 20.0
         sell: 2.0
+        lore:
+          - ' '
       '26':
         material: BRAIN_CORAL_FAN
         buy: 6.0
         sell: 0.5
+        lore:
+          - ' '
       '27':
         material: BUBBLE_CORAL
         buy: 8.0
         sell: 0.8
+        lore:
+          - ' '
       '28':
         material: BUBBLE_CORAL_BLOCK
         buy: 20.0
         sell: 2.0
+        lore:
+          - ' '
       '29':
         material: BUBBLE_CORAL_FAN
         buy: 6.0
         sell: 0.5
+        lore:
+          - ' '
       '30':
         material: DEAD_BRAIN_CORAL
         buy: 5
         sell: 1.25
+        lore:
+          - ' '
       '31':
         material: DEAD_BRAIN_CORAL_BLOCK
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '32':
         material: DEAD_BRAIN_CORAL_FAN
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '33':
         material: DEAD_BUBBLE_CORAL
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '34':
         material: DEAD_BUBBLE_CORAL_BLOCK
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '35':
         material: DEAD_BUBBLE_CORAL_FAN
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '36':
         material: DEAD_FIRE_CORAL
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '37':
         material: DEAD_FIRE_CORAL_BLOCK
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '38':
         material: DEAD_FIRE_CORAL_FAN
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '39':
         material: DEAD_HORN_CORAL
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '40':
         material: DEAD_HORN_CORAL_BLOCK
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '41':
         material: DEAD_HORN_CORAL_FAN
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '42':
         material: DEAD_TUBE_CORAL
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '43':
         material: DEAD_TUBE_CORAL_BLOCK
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '44':
         material: DEAD_TUBE_CORAL_FAN
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '45':
         material: FIRE_CORAL
         buy: 5
         sell: 1.25
+        lore:
+          - ' '
   page2:
     items:
       '46':
         material: FIRE_CORAL_BLOCK
         buy: 16
         sell: 4
+        lore:
+          - ' '
       '47':
         material: FIRE_CORAL_FAN
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '48':
         material: HORN_CORAL
         buy: 5
         sell: 1.25
+        lore:
+          - ' '
       '49':
         material: HORN_CORAL_BLOCK
         buy: 16
         sell: 4
+        lore:
+          - ' '
       '50':
         material: HORN_CORAL_FAN
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '51':
         material: TUBE_CORAL
         buy: 5
         sell: 1.25
+        lore:
+          - ' '
       '52':
         material: TUBE_CORAL_BLOCK
         buy: 16
         sell: 4
+        lore:
+          - ' '
       '53':
         material: TUBE_CORAL_FAN
         buy: 6
         sell: 1.5
+        lore:
+          - ' '
       '54':
         material: ACACIA_LEAVES
         buy: 5.0
-        sell: 0.1 
+        sell: 0.1
+        lore:
+          - ' '
       '55':
         material: AZALEA_LEAVES
         buy: 6.0
         sell: 0.2
+        lore:
+          - ' '
       '56':
         material: BIRCH_LEAVES
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '57':
         material: DARK_OAK_LEAVES
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '58':
         material: FLOWERING_AZALEA_LEAVES
         buy: 3.15
         sell: 0.79
+        lore:
+          - ' '
       '59':
         material: JUNGLE_LEAVES
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '60':
         material: OAK_LEAVES
         buy: 5.0
         sell: 0.1
+        lore:
+          - ' '
       '61':
         material: SPRUCE_LEAVES
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '62':
         material: ACACIA_SAPLING
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '63':
         material: AZALEA
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '64':
         material: BIRCH_SAPLING
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '65':
         material: DARK_OAK_SAPLING
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '66':
         material: FLOWERING_AZALEA
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '67':
         material: JUNGLE_SAPLING
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '68':
         material: OAK_SAPLING
         buy: 10.0
         sell: 1.0
+        lore:
+          - ' '
       '69':
         material: SPRUCE_SAPLING
         buy: 10.0
         sell: 1.0
+        lore:
+          - ' '
       '70':
         material: GLOW_LICHEN
         buy: 8.0
         sell: 0.5
+        lore:
+          - ' '
       '71':
         material: TWISTING_VINES
         buy: 10.0
         sell: 0.8
+        lore:
+          - ' '
       '72':
         material: VINE
         buy: 10.0
         sell: 0.5
+        lore:
+          - ' '
       '73':
         material: WEEPING_VINES
         buy: 10.0
         sell: 0.8
+        lore:
+          - ' '

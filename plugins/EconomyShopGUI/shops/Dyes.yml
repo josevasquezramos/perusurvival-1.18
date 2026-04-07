@@ -1,91 +1,135 @@
 pages:
   page1:
-      items:
-        '1':
-          material: BLACK_DYE
-          buy: 6.0
-          sell: 0.5 
-        '2':
-          material: BLUE_DYE
-          buy: 4.0
-          sell: 0.3
-        '3':
-          material: BROWN_DYE
-          buy: 5.0
-          sell: 0.4 
-        '4':
-          material: CYAN_DYE
-          buy: 5.0
-          sell: 0.4
-        '5':
-          material: GRAY_DYE
-          buy: 5.0
-          sell: 0.4
-        '6':
-          material: GREEN_DYE
-          buy: 4.0
-          sell: 0.2 
-        '7':
-          material: LIGHT_BLUE_DYE
-          buy: 4.0
-          sell: 0.3
-        '8':
-          material: LIGHT_GRAY_DYE
-          buy: 4.0
-          sell: 0.3
-        '9':
-          material: LIME_DYE
-          buy: 5.0
-          sell: 0.4
-        '10':
-          material: MAGENTA_DYE
-          buy: 5.0
-          sell: 0.4
-        '11':
-          material: ORANGE_DYE
-          buy: 4.0
-          sell: 0.3
-        '12':
-          material: PINK_DYE
-          buy: 4.0
-          sell: 0.3
-        '13':
-          material: PURPLE_DYE
-          buy: 5.0
-          sell: 0.4
-        '14':
-          material: RED_DYE
-          buy: 4.0
-          sell: 0.3
-        '15':
-          material: WHITE_DYE
-          buy: 6.0  
-          sell: 0.5
-        '16':
-          material: YELLOW_DYE
-          buy: 4.0
-          sell: 0.3
-        '17':
-          material: AZURE_BLUET
-          buy: 3.0
-          sell: 0.2
-        '18':
-          material: BLUE_ORCHID
-          buy: 5.0    
-          sell: 0.5
-        '19':
-          material: CORNFLOWER
-          buy: 3.0
-          sell: 0.2
-        '20':
-          material: RED_TULIP
-          buy: 3.0
-          sell: 0.2
-        '21':
-          material: SUNFLOWER
-          buy: 6.0   
-          sell: 0.4
-        '22':
-          material: INK_SAC
-          buy: 8.0
-          sell: 1.0
+    items:
+      '1':
+        material: BLACK_DYE
+        buy: 6.0
+        sell: 0.5
+        lore:
+          - ' '
+      '2':
+        material: BLUE_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '3':
+        material: BROWN_DYE
+        buy: 5.0
+        sell: 0.4
+        lore:
+          - ' '
+      '4':
+        material: CYAN_DYE
+        buy: 5.0
+        sell: 0.4
+        lore:
+          - ' '
+      '5':
+        material: GRAY_DYE
+        buy: 5.0
+        sell: 0.4
+        lore:
+          - ' '
+      '6':
+        material: GREEN_DYE
+        buy: 4.0
+        sell: 0.2
+        lore:
+          - ' '
+      '7':
+        material: LIGHT_BLUE_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '8':
+        material: LIGHT_GRAY_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '9':
+        material: LIME_DYE
+        buy: 5.0
+        sell: 0.4
+        lore:
+          - ' '
+      '10':
+        material: MAGENTA_DYE
+        buy: 5.0
+        sell: 0.4
+        lore:
+          - ' '
+      '11':
+        material: ORANGE_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '12':
+        material: PINK_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '13':
+        material: PURPLE_DYE
+        buy: 5.0
+        sell: 0.4
+        lore:
+          - ' '
+      '14':
+        material: RED_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '15':
+        material: WHITE_DYE
+        buy: 6.0
+        sell: 0.5
+        lore:
+          - ' '
+      '16':
+        material: YELLOW_DYE
+        buy: 4.0
+        sell: 0.3
+        lore:
+          - ' '
+      '17':
+        material: AZURE_BLUET
+        buy: 3.0
+        sell: 0.2
+        lore:
+          - ' '
+      '18':
+        material: BLUE_ORCHID
+        buy: 5.0
+        sell: 0.5
+        lore:
+          - ' '
+      '19':
+        material: CORNFLOWER
+        buy: 3.0
+        sell: 0.2
+        lore:
+          - ' '
+      '20':
+        material: RED_TULIP
+        buy: 3.0
+        sell: 0.2
+        lore:
+          - ' '
+      '21':
+        material: SUNFLOWER
+        buy: 6.0
+        sell: 0.4
+        lore:
+          - ' '
+      '22':
+        material: INK_SAC
+        buy: 8.0
+        sell: 1.0
+        lore:
+          - ' '

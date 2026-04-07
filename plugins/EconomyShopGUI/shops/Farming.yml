@@ -3,105 +3,157 @@ pages:
     items:
       '1':
         material: BAMBOO
-        buy: 2.0    
+        buy: 2.0
         sell: 0.05
+        lore:
+          - ' '
       '2':
         material: BEE_NEST
-        buy: -1    
+        buy: -1
         sell: 50.0
+        lore:
+          - ' '
       '3':
         material: BEEHIVE
-        buy: 80.0 
+        buy: 80.0
         sell: 10.0
+        lore:
+          - ' '
       '4':
         material: BEETROOT_SEEDS
         buy: 2.0
         sell: 0.1
+        lore:
+          - ' '
       '5':
         material: BROWN_MUSHROOM
         buy: 2
         sell: 0.5
+        lore:
+          - ' '
       '6':
         material: CACTUS
         buy: 2.0
         sell: 0.05
+        lore:
+          - ' '
       '7':
         material: CARROT
         buy: 5.0
         sell: 0.4
+        lore:
+          - ' '
       '8':
         material: CHORUS_FLOWER
         buy: 1
         sell: 0.25
+        lore:
+          - ' '
       '9':
         material: CHORUS_FRUIT
         buy: 3
         sell: 0.75
+        lore:
+          - ' '
       '10':
         material: COCOA_BEANS
         buy: 6
         sell: 1.5
+        lore:
+          - ' '
       '11':
         material: CRIMSON_FUNGUS
         buy: 6
         sell: 1.5
+        lore:
+          - ' '
       '12':
         material: EGG
         buy: 2.0
         sell: 0.1
+        lore:
+          - ' '
       '13':
         material: KELP
         buy: 2.0
         sell: 0.05
+        lore:
+          - ' '
       '14':
         material: LEATHER
-        buy: 15.0  
+        buy: 15.0
         sell: 2.0
+        lore:
+          - ' '
       '15':
         material: MELON
         buy: 6.0
         sell: 0.4
+        lore:
+          - ' '
       '16':
         material: MELON_SEEDS
         buy: 2.0
         sell: 0.1
+        lore:
+          - ' '
       '17':
         material: MELON_SLICE
         buy: 1
         sell: 0.25
+        lore:
+          - ' '
       '18':
         material: NETHER_WART
         buy: 10.0
         sell: 1.0
+        lore:
+          - ' '
       '19':
         material: POTATO
         buy: 5.0
         sell: 0.4
+        lore:
+          - ' '
       '20':
         material: PUMPKIN
         buy: 8.0
         sell: 0.6
+        lore:
+          - ' '
       '21':
         material: PUMPKIN_SEEDS
         buy: 2.0
         sell: 0.1
+        lore:
+          - ' '
       '22':
         material: RED_MUSHROOM
         buy: 2
         sell: 0.5
+        lore:
+          - ' '
       '23':
         material: SUGAR_CANE
         buy: 0.1
         sell: 0.03
+        lore:
+          - ' '
       '24':
         material: SUGAR
         buy: 3.0
         sell: 0.1
+        lore:
+          - ' '
       '25':
         material: WHEAT
         buy: 4.0
         sell: 0.5
+        lore:
+          - ' '
       '26':
         material: WHEAT_SEEDS
         buy: 1.0
         sell: 0.05
+        lore:
+          - ' '

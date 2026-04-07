@@ -5,55 +5,83 @@ pages:
         material: MUSIC_DISC_11
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '2':
         material: MUSIC_DISC_13
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '3':
         material: MUSIC_DISC_BLOCKS
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '4':
         material: MUSIC_DISC_CAT
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '5':
         material: MUSIC_DISC_CHIRP
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '6':
         material: MUSIC_DISC_FAR
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '7':
         material: MUSIC_DISC_MALL
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '8':
         material: MUSIC_DISC_MELLOHI
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '9':
         material: MUSIC_DISC_OTHERSIDE
-        buy: 3000.0   
+        buy: 3000.0
         sell: 500.0
+        lore:
+          - ' '
       '10':
         material: MUSIC_DISC_PIGSTEP
-        buy: 5000.0  
+        buy: 5000.0
         sell: 1000.0
+        lore:
+          - ' '
       '11':
         material: MUSIC_DISC_STAL
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '12':
         material: MUSIC_DISC_STRAD
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '13':
         material: MUSIC_DISC_WAIT
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '
       '14':
         material: MUSIC_DISC_WARD
         buy: 150.0
         sell: 20.0
+        lore:
+          - ' '

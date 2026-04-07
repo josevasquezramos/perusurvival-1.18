@@ -36,12 +36,12 @@
 #                                                                                  #
 ####################################################################################
 #
-config-version: 2.0.1.6
+config-version: 2.0.1.1
 # WARNING: Do not change this value as this might end up in a plugin that does not work!!
 #----------------------------------------------Language-------------------------------------------------
 
 # Here you can change the language of the plugin.
-language-file: lang-en.yml
+language-file: lang-es.yml
 
 # See this link for all available language files: https://wiki.gpplugins.com/economyshopgui/file-configuration/languages#currently-supported-languages
 
@@ -52,13 +52,13 @@ language-file: lang-en.yml
 # Examples:
 # 'en-US' has a format of '#,##0.00'
 # 'nl-NL' has a format of '#.##0,00'
-locale: es-PE
+locale: en-US
 # Note: This is not the locale at which messages will be translated, see the above option for that.
 # The locale is set in BCP 47 language tag.
 # See this website for some example BCP 47 language tag you can use: https://appmakers.dev/bcp-47-language-codes-list/
 
 # Currency format
-currency-format: S/.#,##0.00
+currency-format: S/#,##0.00
 
 # Use price amount abbreviations(shortcuts) for display prices
 abbreviations:
@@ -100,7 +100,7 @@ use-paper-meta: true
 #---------------------------------------------Transactions----------------------------------------------
 
 # Whether transactions should be logged to a text file
-transaction-log: false
+transaction-log: true
 # Tip: Since EconomyShopGUI v6.12.0 the transaction history is logged inside a database by default with more details for transactions
 # So the transactions text file feature became redundant and may be disabled to save disk space
 
@@ -123,12 +123,7 @@ placeholders:
 
 # ShopStands allow physical stands to be placed down as blocks,
 # allowing players to right/left-click the stand to purchase the item linked
-shop-stands:
-  # Enable or disable the module
-  enable: false
-  # Set the default behavior for holograms from a ShopStand
-  # TIP: When enabled, the holograms of shop stands can still be disabled individually by shift clicking the stand
-  holograms: true
+shop-stands: false
 
 # ShopStands is a separate module of the plugin, so when disabled, it will completely disable this feature and its listeners
 # Due to its smart design, ShopStands aren't persistent(1.13+) unlike regular entities, and the impact on performance is minimal
@@ -189,7 +184,7 @@ currency-formats:
   vault:
     singular: ' '
     plural: ' '
-    friendly: ' '
+    friendly: dinero
   gems-economy:Example:
     singular: Example
     plural: Examples
@@ -338,7 +333,7 @@ main-menu:
   gui-rows: 6
   # The fill item for inside the main menu which will fill empty spots
   fill-item:
-    material: AIR
+    material: GRAY_STAINED_GLASS_PANE
     name: ' '
     enable: true
 
@@ -389,7 +384,7 @@ main-menu-nav-bar:
       skullowner: '%player_name%'
       name: '%player_displayname%'
       lore:
-      - '%translations-money%: S/ &c%player_balance%'
+      - '%translations-money%: &c%player_balance%'
     2:
       material: air
     3:
@@ -419,7 +414,7 @@ shops-nav-bar:
       skullowner: '%player_name%'
       name: '%player_displayname%'
       lore:
-      - '%translations-money%: S/ &c%player_balance%'
+      - '%translations-money%: &c%player_balance%'
     2:
       material: air
     3:
@@ -462,7 +457,7 @@ transaction-screens-nav-bar:
       skullowner: '%player_name%'
       name: '%player_displayname%'
       lore:
-      - '%translations-money%: S/ &c%player_balance%'
+      - '%translations-money%: &c%player_balance%'
     2:
       material: air
     3:
@@ -488,14 +483,14 @@ transaction-screens-nav-bar:
 # The navigation bar that appears in the buy/sell screens from the shop stands
 # Available action: 'TOGGLE_MODE' - Switches between buy/sell mode
 shopstands-transaction-screens-nav-bar:
-  enabled: true
+  enabled: false
   items:
     1:
       material: player_head
       skullowner: '%player_name%'
       name: '%player_displayname%'
       lore:
-      - 'Dinero: S/ &c%player_balance%'
+      - '%translations-money%: &c%player_balance%'
     2:
       material: air
     3:
@@ -562,7 +557,7 @@ sellgui-nav-bar:
 allow-renamed-items: true
 
 # Allows items with different lore to be sold to the shop
-allow-lore-items: false
+allow-lore-items: true
 
 # When disabled, all sold items will be sold regardless of their item meta(name, lore, enchantments, armor color, potion types, spawner types, recipes, etc...)
 # and will only be matched according the item type
@@ -590,7 +585,6 @@ sort-items-by: DESCENDING_SELL_PRICE
 # Use the list below to re-arrange it
 lore-arrangement:
 - 'special-lore'
-- 'item-requirements'
 - 'buy-prices'
 - 'sell-prices'
 - 'decoration-lore'
@@ -605,63 +599,64 @@ lore-arrangement:
 display-lore-layout:
   # Top lore of a shop item
   special-lore:
-    seasonal-pricing: '%translations-item-seasonal-price%'
+    seasonal-pricing: '&6&l⭐ &eTemporada: &f%translations-item-seasonal-price%'
   # Displayed when the player doesn't meet a item requirement
   item-requirements:
     region-requirement-not-met:
-    - '%translations-region-requirement-lore%'
+    - '&c&l✘ &7%translations-region-requirement-lore%'
     quest-requirement-not-met:
-    - '%translations-quest-requirement-lore%'
+    - '&c&l✘ &7%translations-quest-requirement-lore%'
     time-requirement-not-met:
-    - '%translations-time-requirement-lore%'
+    - '&c&l✘ &7%translations-time-requirement-lore%'
   # One of the following lore is displayed on shop items with buy prices based on the items state
   buy-prices:
     normal:
-    - '%translations-left-click-buy%'
+    - '&b&l| &fCompra: &a%translations-left-click-buy%'
     disabled:
-    - '%translations-item-cannot-be-bought%'
+    - '&c&l✘ &7%translations-item-cannot-be-bought%'
     undefined:
     - ''
     discounted:
-    - '%translations-discounted-buy-price%'
+    - '&b&l| &fOferta: &a%translations-discounted-buy-price%'
     seasonal:
-    - '%translations-seasonal-buy-price%'
+    - '&6&l| &fEspecial: &e%translations-seasonal-buy-price%'
   # One of the following lore is displayed on shop items with sell prices based on the items state
   sell-prices:
     normal:
-    - '%translations-right-click-sell%'
+    - ' '
+    - '&e&l| &fVenta: &6%translations-right-click-sell%'
     disabled:
-    - '%translations-item-cannot-be-sold%'
+    - '&c&l✘ &7%translations-item-cannot-be-sold%'
     undefined:
     - ''
     multiplied:
-    - '%translations-multiplied-sell-price%'
+    - '&e&l| &fBono: &d%translations-multiplied-sell-price%'
     seasonal:
-    - '%translations-seasonal-sell-price%'
+    - '&6&l| &fEspecial: &e%translations-seasonal-sell-price%'
     # The following lore is displayed on any shop item with a sell price
     # AND if the shift-right-click-sell-all config option is enabled
     sell-all:
-    - ''
+    - '&e&l| &7%translations-shift-right-click-sell-all%'
   # Extra item lore displayed on every shop items
   # Can be used to decorate lore, or add information inside lore which applies for all items
   decoration-lore:
     # The following decoration lore is displayed on every shop item with a buy and/or sell price
     extra-lore:
-    - '%translations-decoration-lore%'
+    - '&8&m--------------------------'
     # The following decoration lore is displayed on any shop item with a buy price
     extra-buy-lore:
-    - '%translations-decoration-lore-buy%'
+    - ''
     # The following decoration lore is displayed on any shop item with a sell price
     # AND if the shift-right-click-sell-all config option is enabled
     extra-sell-all-lore:
-    - '%translations-decoration-lore-sell-all%'
+    - ''
     # The following decoration lore is displayed on any shop item with a sell price
     extra-sell-lore:
-    - '%translations-decoration-lore-sell%'
+    - ''
   # More detailed item lore which is only shown for specific permissions
   admin-lore:
     # The following lore is only displayed on shop items if players have the 'EconomyShopGUI.itemindexes' permission
-    item-index: '%translations-item-location-in-shop%'
+    item-index: '&8ID: &7%translations-item-location-in-shop%'
 
 # Enable/disable the lore on items given to players when an item is bought from shop
 bought-items-lore: true
@@ -720,9 +715,6 @@ max-shop-pages: 50
 # Buy screen
 buy-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
       material: magenta_stained_glass_pane
@@ -786,9 +778,6 @@ buy-screen:
 # Sell screen
 sell-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
       material: magenta_stained_glass_pane
@@ -852,9 +841,6 @@ sell-screen:
 # Buy stacks screen
 buy-stacks-screen:
   menu-size: 5
-  fill-item:
-    material: GRAY_STAINED_GLASS_PANE
-    name: ' '
   items:
     1:
       material: magenta_stained_glass
