@@ -419,10 +419,6 @@ rewards:
     display-item:
       material: custom:llave_fire_crate1
       amount: 1
-    win-items:
-      '0':
-        material: custom:llave_fire_crate1
-        amount: 1
     win-commands: []
     broadcast: false
     percentage: 100.0
@@ -439,6 +435,10 @@ rewards:
         virtual: false
         broadcast: false
         commands: []
+    win-items:
+      '0':
+        material: custom:llave_fire_crate1
+        amount: 1
   '16':
     identifier: reward_1775525417309
     display-item:
@@ -462,7 +462,7 @@ rewards:
         commands: []
     win-items:
       '0':
-        material: custom:llave_insane_crate1
+        material: custom:llave_insane_crate2
         amount: 2
   '17':
     identifier: reward_1775525417311

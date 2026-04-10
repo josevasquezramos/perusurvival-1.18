@@ -343,10 +343,6 @@ rewards:
     display-item:
       material: custom:llave_economy_crate1
       amount: 3
-    win-items:
-      '0':
-        material: custom:llave_economy_crate1
-        amount: 3
     win-commands: []
     broadcast: false
     percentage: 100.0
@@ -363,6 +359,10 @@ rewards:
         virtual: false
         broadcast: false
         commands: []
+    win-items:
+      '0':
+        material: custom:llave_economy_crate1
+        amount: 3
   '13':
     identifier: reward_1775575192825
     display-item:
