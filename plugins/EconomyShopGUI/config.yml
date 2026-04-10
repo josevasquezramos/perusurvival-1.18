@@ -36,7 +36,7 @@
 #                                                                                  #
 ####################################################################################
 #
-config-version: 2.0.1.1
+config-version: 2.0.1.6
 # WARNING: Do not change this value as this might end up in a plugin that does not work!!
 #----------------------------------------------Language-------------------------------------------------
 
@@ -93,7 +93,7 @@ use-nms: true
 
 # When enabled, the plugin will utilize the paper API on paper 1.21.3+ servers to apply item name/lore to items and create inventory's,
 # which also allows the use of advanced MiniMessage formats in inventory titles and item names/lore
-use-paper-meta: true
+use-paper-meta: false
 # When disabled, NMS will be used for item displays(unless disabled)
 
 
@@ -123,7 +123,12 @@ placeholders:
 
 # ShopStands allow physical stands to be placed down as blocks,
 # allowing players to right/left-click the stand to purchase the item linked
-shop-stands: false
+shop-stands:
+  # Enable or disable the module
+  enable: false
+  # Set the default behavior for holograms from a ShopStand
+  # TIP: When enabled, the holograms of shop stands can still be disabled individually by shift clicking the stand
+  holograms: true
 
 # ShopStands is a separate module of the plugin, so when disabled, it will completely disable this feature and its listeners
 # Due to its smart design, ShopStands aren't persistent(1.13+) unlike regular entities, and the impact on performance is minimal
@@ -569,7 +574,7 @@ match-item-meta: true
 # SHOP_LOAD_ORDER = Items will be loaded in the load order of the shop they are located in(Default)
 # DESCENDING_SELL_PRICE = Sort items from HIGH sell prices to LOW sell prices
 # ASCENDING_SELL_PRICE = Sort items from LOW sell prices to HIGH sell prices
-sort-items-by: DESCENDING_SELL_PRICE
+sort-items-by: SHOP_LOAD_ORDER
 # By default, when set to DESCENDING, items that match each other(or duplicate) are prioritized by the highest sell price when selling them
 # For example when having two similar apples in shop, one sold for 20$ and one sold for 5$, players will sell the apple with the highest price when sold via /sellall or /sellgui
 
@@ -768,6 +773,8 @@ buy-screen:
     8:
       slot: 22
       type: SELECTED_ITEM
+      lore:
+      - §5x %amount%
 
     9:
       material: chest
@@ -831,6 +838,8 @@ sell-screen:
     8:
       slot: 22
       type: SELECTED_ITEM
+      lore:
+      - §5x %amount%
 
     9:
       material: emerald
@@ -894,6 +903,8 @@ buy-stacks-screen:
     8:
       slot: 22
       type: SELECTED_ITEM
+      lore:
+      - §5x %amount%
 
 shopstand-buy-screen:
   menu-size: 1
