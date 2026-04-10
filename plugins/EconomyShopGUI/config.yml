@@ -774,7 +774,7 @@ buy-screen:
       slot: 22
       type: SELECTED_ITEM
       lore:
-      - §5x %amount%
+      - '§5x %amount%'
 
     9:
       material: chest
@@ -839,7 +839,7 @@ sell-screen:
       slot: 22
       type: SELECTED_ITEM
       lore:
-      - §5x %amount%
+      - '§5x %amount%'
 
     9:
       material: emerald
@@ -904,7 +904,7 @@ buy-stacks-screen:
       slot: 22
       type: SELECTED_ITEM
       lore:
-      - §5x %amount%
+      - '§5x %amount%'
 
 shopstand-buy-screen:
   menu-size: 1
